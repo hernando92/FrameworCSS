@@ -1,0 +1,224 @@
+body {
+  background: url(../../img/fondogastronomia.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.encabezado h1 {
+    font-size: 25px;
+    text-align: center;    
+    margin-top: 10px;
+    margin-left: 42px;
+}
+
+.logo-img{
+  width: 30%;
+}
+
+.jumbotron-img-receta{
+	width: 80%;
+}
+
+img{
+  max-height: 300px;
+}
+
+.menu.vertical{
+	padding: 15px;
+}
+
+.encabezado{
+	height: 7%;
+    margin-bottom: 15px
+}
+
+.margen1{
+	border-right: 2px solid white;
+}
+
+.margen2{
+	border-bottom: 2px solid white;
+	margin-bottom: 12px;
+}
+
+.margen3{
+	border-bottom: 2px solid gray;
+	margin-bottom: 12px;
+}
+
+.jumbotron-titulo {
+    font-size: 24px;
+    margin-left: 30px;
+    color: #1F618D;
+    /*font-weight: bold;*/
+    font-family: monospace;
+    font-style: italic;
+}
+
+.jumbotron-text {
+  font-size: 16px;
+  /*margin-top: 10px;
+  margin-bottom: 10px;*/
+  padding: 15px;
+  color: black;
+}
+
+.jumbotron-fecha{
+	font-size: 14px;
+    margin-left: 5px;
+    color: #1F618D;
+    font-family: monospace;
+    font-style: italic;
+}
+
+
+.jumbitron-img{
+	max-height: 150px;
+	width: 100%;
+}
+
+.fondo{
+	background: #D1F2EB;
+	filter: alpha(opacity=80);
+  /* IE */
+  -moz-opacity: 0.8;
+  /* Mozilla */
+  opacity: 0.8;
+  /* CSS3 */
+}
+
+.fi-magnifying-glass{
+    font-size: 25px;
+}
+
+.fi-torso-female {    
+    font-size: 32px;
+    text-align: center;
+	color: blueviolet;
+}
+
+
+.input-element {
+  width: 70%;
+  height: 35px;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.row .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	.ocultar-columna{
+		display: none;
+	}
+	
+	.jumbotron-titulo {
+		font-size: 44px;
+	}
+	
+	.jumbotron-text {
+		font-size: 34px;
+	}
+	
+	.encabezado{
+		height: 0%;
+	}
+	
+	.jumbotron-img-receta{
+		width: 70%;
+	}
+	
+	.jumbotron-fecha{
+		font-size: 30px;
+	}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.ocultar-columna{
+		display: none;
+	}
+	
+	.jumbotron-titulo {
+		font-size: 44px;
+	}
+	
+	.jumbotron-text {
+		font-size: 34px;
+	}
+	
+	.encabezado{
+		height: 0%;
+	}
+	
+	.jumbotron-img-receta{
+		width: 70%;
+	}
+	
+	.jumbotron-fecha{
+		font-size: 30px;
+	}
+	
+	.fi-torso-female {    
+		font-size: 52px;
+	}
+	
+	.fi-torso-female {    
+		font-size: 52px;
+	}
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+	.ocultar-columna{
+		display: block;
+	}
+	
+	.jumbotron-titulo {
+		font-size: 24px;
+	}
+	
+	.jumbotron-text {
+		font-size: 16px;
+	}
+	
+	.encabezado{
+		height: 100px;
+	}
+	
+	.jumbotron-img-receta{
+		width: 80%;
+	}
+	
+	.jumbotron-fecha{
+		font-size: 14px;
+	}
+	
+	.fi-torso-female {    
+		font-size: 52px;
+	}
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+	.ocultar-columna{
+		display: block;
+	}
+}

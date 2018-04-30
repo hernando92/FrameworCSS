@@ -1,0 +1,124 @@
+.barra-superior{
+  max-height: 10rem;
+  /* background-color: #004d40 teal darken-4; */
+}
+div[class*="columna"]{
+  min-height: 50rem;
+}
+div[class*="bloque"]{
+  height: 25rem;
+  overflow: scroll;
+}
+
+.barra-superior {
+   max-height: 300rem;
+   height: 300px;
+}
+
+.Contenedor-logo{
+	text-align: center;
+}
+.logo{
+  width: 145px;
+  margin-top: 2rem;
+  float: left;
+  position: relative;
+}
+
+.collection .collection-item {
+    background-color: rgba(0,0,0,0.5); /*#fff; */
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.contenedor-noticias{
+  margin-top: 1rem;
+  min-height: 50rem;
+  padding: 0.5rem;
+}
+.responsive-img{
+  border: 0.6rem solid #cfd8dc;
+  border-radius: 5px;
+}
+
+.contenedor-titulo {
+	margin-top: 120px;
+}
+
+.contenedor-titulo h1{
+	font-size:30px;
+	font-family: GillSans, Calibri, Trebuchet, sans-serif;  /*sans-serif;*/
+}
+
+.margen-body{
+	margin-top:-60px;;
+}
+
+.buscar-campo{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+.barra-superior .row{
+  margin-bottom: 0;
+}
+.contenedor-botones{
+  margin-top: 1rem;
+}
+
+.jumbotron-img {
+    width: 220px;
+    margin-top: 15px;
+	margin-bottom: 10px;
+  }
+  
+  .jumbotron-titulo {
+  font-size: 20px;
+  margin-left: 30px;
+  /*color: #FFFFFF;*/
+}
+  
+  .jumbotron-text {
+  font-size: 16px;
+  padding: 15px;
+  /*color: #FFFFFF;*/
+}
+
+.input-element {
+  width: 70% !important;
+  height: 28px !important;
+  padding: 10px !important;
+  color: #FFFFFF !important;
+  background-color: rgba(255,255,255,0.4) !important;
+  border-radius: 4px !important;
+  border: none !important;
+  margin-top: 5px !important;
+}
+
+.Cuadro_texto {
+	background-color: #FFFFFF;
+}
+
+.Cuadro_texto2 {
+	background-color: #4db6ac;
+	padding: 15px !important;
+}
+
+/* 6.  Contenedor movil */
+@media (min-width: 320px) and (max-width: 480px) {
+
+	.margen-body{
+		margin-top:0px;;
+	}
+	
+	.contenedor-titulo {
+		margin-top: 220px;
+	}
+	
+	.jumbotron-img{
+		width: 100%
+	}
+}
